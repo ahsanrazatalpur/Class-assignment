@@ -1,0 +1,30 @@
+void main()
+{
+int a,b,sum,product,difference,division,reminder,total;
+clrscr();
+printf("Enter 1st number= ");
+scanf("%d",&a);
+printf("Enter 2nd number= ");
+scanf("%d",&b);
+sum=a+b;
+printf("Sum of %d and %d is              :%d\n",a,b,sum);
+product=a*b;
+printf("product of %d and %d is          :%d\n",a,b,product);
+difference=a-b;
+printf("difference of %d and %d is       :%d\n",a,b,difference);
+division=a/b;
+printf("Division of %d and %d is         :%d\n",a,b,division);
+reminder=a%b;
+printf("reminder of %d and %d is         :%d\n",a,b,reminder);
+printf("-------------------------------------------\n");
+total=sum+product+difference+division+reminder;
+printf("Total                          :%d",total);
+getch();
+
+
+
+
+
+
+
+}

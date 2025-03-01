@@ -1,0 +1,21 @@
+
+void main()
+{
+char name[30],fname[30],grade[30];
+int age;
+clrscr();
+printf("enter your name ");
+gets(name);
+printf("enter your fathers name ");
+gets(fname);
+printf("enter your age ");
+scanf("%d",&age);
+printf("enter your grade  ");
+scanf("%s",&grade);
+printf("\n");
+printf("Name                         : %s\n",name);
+printf("Father's Name                : %s\n",fname);
+printf("Age                          : %d\n",age );
+printf("Grade                        : %s\n",grade);
+getch();
+}
